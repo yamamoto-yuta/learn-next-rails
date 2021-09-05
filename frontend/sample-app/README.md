@@ -1,3 +1,17 @@
+## 環境構築
+
+```
+$ docker-compose run --rm node npm install create-next-app
+$ docker-compose run --rm node npx create-next-app sample-app
+$ docker-compose up
+```
+
+参考記事：
+
+- [Next.js を docker-compose up したい！ - Qiita](https://qiita.com/white0221/items/85ab80f0df93721846d9)
+
+---
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
