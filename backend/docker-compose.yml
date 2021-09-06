@@ -1,0 +1,14 @@
+version: '3.7'
+
+services:
+  node:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      TZ: Asia/Tokyo
+    volumes:
+      - .:/home
+    tty: true
+    ports:
+      - "3000:3000"
